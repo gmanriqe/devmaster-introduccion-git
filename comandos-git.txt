@@ -1,8 +1,10 @@
+COMANDOS BÁSICOS EN GIT:
+
 Creando respositorio en local
 git init
 
 Identificación
-git config --global user.name "Jesus Gonzales"
+git config --global user.name "gmanriqe"
 git config --global user.email "gmanriqe@gmail.com"
 
 Visualizar config
