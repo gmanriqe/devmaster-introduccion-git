@@ -1,0 +1,31 @@
+Creando respositorio en local
+git init
+
+Identificación
+git config --global user.name "Jesus Gonzales"
+git config --global user.email "gmanriqe@gmail.com"
+
+Visualizar config
+git config --list
+
+Seguimiento de archivos
+git add nombre-archivo
+git add *
+
+Visualizar estado de archivos
+git status
+
+Pasar al repositorio local (commit)
+git commit -m "Mensaje super descriptivo del commit"
+
+Para ver el historial (log)
+git log
+git log --oneline
+
+Para deshacer un commit y colocar todo en el stage
+git reset --soft #nombre-identificador
+
+Enviar cambios a la rama master
+git push origin master
+
+Bonus: http://rogerdudler.github.io/git-guide/index.es.html
